@@ -1,0 +1,10 @@
+.draft-badge {
+  font-size: 12px;
+  color: #3f7d4a;
+  opacity: 0;
+  transition: opacity 400ms ease;
+}
+
+.draft-badge--visible {
+  opacity: 1;
+}

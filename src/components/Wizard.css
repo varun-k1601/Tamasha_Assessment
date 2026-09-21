@@ -1,0 +1,87 @@
+.wizard {
+  width: 100%;
+  max-width: 560px;
+  margin: 48px auto;
+  padding: 28px;
+  background: #fff;
+  border: 1px solid #e2e4e8;
+  border-radius: 10px;
+}
+
+.wizard__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.wizard__title {
+  margin: 0;
+  font-size: 20px;
+}
+
+.wizard__actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px solid #e2e4e8;
+}
+
+.wizard__button {
+  padding: 9px 18px;
+  font: inherit;
+  font-size: 14px;
+  color: #1c2028;
+  background: #fff;
+  border: 1px solid #c3c8d2;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.wizard__button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.wizard__button--primary {
+  margin-left: auto;
+  color: #fff;
+  background: #2f6feb;
+  border-color: #2f6feb;
+}
+
+.step {
+  min-height: 210px;
+}
+
+.step__title {
+  margin: 0 0 6px;
+  font-size: 17px;
+}
+
+.step__hint {
+  margin: 0 0 20px;
+  font-size: 14px;
+  color: #5b6270;
+}
+
+.wizard__success {
+  padding: 18px;
+  background: #f0f7f1;
+  border: 1px solid #cbe3cf;
+  border-radius: 8px;
+}
+
+.wizard__success-title {
+  margin: 0 0 6px;
+  font-size: 16px;
+}
+
+.wizard__success-text {
+  margin: 0;
+  font-size: 14px;
+  color: #3d4550;
+}
